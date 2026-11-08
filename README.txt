@@ -13,3 +13,11 @@ L'azienda ha autorizzato la citazione del proprio nome.
 > docs/Legenda_Codici.xlsx --> elenco codici ricodificati suddivisi per distinta
 
 
+
+
+
+
+
+>> Sviluppo iniziato il 20/10/2026 in locale. Su GitHub dal 8/11/2026
+
+
