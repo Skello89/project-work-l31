@@ -1,0 +1,3691 @@
+{
+  "progetto": "PW27 - Distinta base e MRP",
+  "orizzonte_settimane": 8,
+  "prodotto_finito": "GRPPIEDEDX",
+  "fabbisogni_lordi_prodotto_finito": [
+    55,
+    25,
+    60,
+    30,
+    65,
+    35,
+    70,
+    40
+  ],
+  "articoli": [
+    {
+      "codice": "CD67000",
+      "descrizione": "ANELLO ORIENTABILE x RACCORDO A 'L' 1/4'F",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM8215",
+      "descrizione": "ANTIROTAZIONE LAVARUOTE INOX - TRIWASH",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD61000",
+      "descrizione": "BARRA DIN TS35x7,5 FORATA SIMMETRICA (BARRE DA 2MT.)",
+      "um": "MT",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD61001",
+      "descrizione": "BARRA FILETTATA INOX M8",
+      "um": "MT",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD60001",
+      "descrizione": "BLOCCHETTO di ARRESTO BAM3",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD63000",
+      "descrizione": "CASSETTA ELETTRICA GEWISS GW44204",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CASSELSICPIEDEDX",
+      "descrizione": "CASSETTA ELETTRICA SICUREZZA SALVA PIEDE DX",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD39000",
+      "descrizione": "CAVO MULTIPOLARE FROR 4X0,50",
+      "um": "MT",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "AS1000",
+      "descrizione": "CERCHI SUPER CON UGELLO MULTIFORO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 10,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5999",
+      "descrizione": "CHIAVE DI FISSAGGIO SUPPORTO MOTORE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 10,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5998",
+      "descrizione": "CHIAVE DI FISSAGGIO SUPPORTO MOTORE FORI QUADRI",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 10,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD99000",
+      "descrizione": "CHIAVETTA 8x7x110",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD81000",
+      "descrizione": "CILINDRO DOPPIO EFFETTO AMMORTIZZATO ISO-VDMA AL.32 corsa 400 filetto M8 femmina",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD21001",
+      "descrizione": "COLLARE in POLIAMMIDE tipo CP3 D.30mm",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 160,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD21000",
+      "descrizione": "COLLARE in POLIPROPILENE tipo C3 D.16",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 160,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD21002",
+      "descrizione": "COLLARE in POLIPROPILENE tipo C4 D.25",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 160,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "TR0365",
+      "descrizione": "COLLETTORE PRODOTTO CERCHI POM",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7912",
+      "descrizione": "COPERCHIO SUP. ANTERIORE SISTEMA DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7911",
+      "descrizione": "COPERCHIO SUP. POSTERIORE SISTEMA DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD23000",
+      "descrizione": "CUSCINETTO SKF 6206 2 RS (62x30x16)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17000",
+      "descrizione": "DADO AUTOBLOC. M10 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17001",
+      "descrizione": "DADO AUTOBLOC. M12 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17012",
+      "descrizione": "DADO AUTOBLOC. M5 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17009",
+      "descrizione": "DADO AUTOBLOC. M6 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17011",
+      "descrizione": "DADO AUTOBLOC. M8 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17002",
+      "descrizione": "DADO ESAG. M10 INOX UNI 5588 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17003",
+      "descrizione": "DADO ESAG. M12 INOX UNI 5588 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17004",
+      "descrizione": "DADO ESAG. M3 ZN UNI 5588 8 (6S)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17010",
+      "descrizione": "DADO ESAG. M4 INOX UNI 5588 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17005",
+      "descrizione": "DADO ESAG. M5 INOX UNI 5588 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17006",
+      "descrizione": "DADO ESAG. M6 INOX UNI 5588 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD17007",
+      "descrizione": "DADO ESAG. M8 INOX UNI 5588 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD73000",
+      "descrizione": "DISCO LAVARUOTE TWISTER De=550mm Di=450mm C/FORI X HP (COLORE NERO-GRIGIO)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": [
+        {
+          "settimana": 1,
+          "quantita": 60
+        }
+      ]
+    },
+    {
+      "codice": "CD24000",
+      "descrizione": "DISTANZIALE D.15x10,2x37",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD53002",
+      "descrizione": "FASCETTA PLASTICA PER ESTERNO 180X6 NERA",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD86000",
+      "descrizione": "FILTRO INOX PER LANCIA SCHIUMA",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD15001",
+      "descrizione": "GHIERA 1/2' OTTONE NICHELATO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD15002",
+      "descrizione": "GHIERA 27P3 IN POLIPROPILENE NERO x FR/FASTER E NIPPLO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD15000",
+      "descrizione": "GHIERA IN POLIAMMIDE ESAGONALE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD15003",
+      "descrizione": "GHIERA M30x1,5 AUTOBLOCCANTE INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67007",
+      "descrizione": "GIUNTO ANTIVIBRANTE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67010",
+      "descrizione": "GIUNTO ANTIVIBRANTE + TUBETTO ZN. x GRIGLIA AIRFLOW (05)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67008",
+      "descrizione": "GIUNTO GIREVOLE TRE CUSCINETTI",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "GRPLAVRUOTEDX",
+      "descrizione": "GRUPPO LAVARUOTE 84lt 2 PASSATE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "GRPPIEDEDX",
+      "descrizione": "GRUPPO PIEDE DESTRO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 140,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "GRPRUOTAFLDX",
+      "descrizione": "GRUPPO RUOTA FOLLE PIEDE DESTRO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "GRPRUOTATRN",
+      "descrizione": "GRUPPO RUOTA TRAINO PIEDE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "AS1001",
+      "descrizione": "GRUPPO RUOTE LATO SENSORE LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "AS1004",
+      "descrizione": "GRUPPO SUPPORTO RUOTE LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "AS1003",
+      "descrizione": "GRUPPO SUPPORTO RUOTE LAVARUOTE LATO TRAINO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD22000",
+      "descrizione": "GUARNIZIONE O-RING NERO IN NEOPRENE FD17,1.23.1,2 PG11 SEZIONE PIANA",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD19000",
+      "descrizione": "INSERTO FILETTATO M10 ACCIAIO INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD19001",
+      "descrizione": "INSERTO FILETTATO M4 ACCIAIO INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD19004",
+      "descrizione": "INSERTO FILETTATO M5 ACCIAIO INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD19002",
+      "descrizione": "INSERTO FILETTATO M6 L=16 GRIP 0,5-3,0 ACCIAIO INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD19003",
+      "descrizione": "INSERTO FILETTATO M8 CORTO L=17 GRIP 0,5-3,5 ACCIAIO INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD49002",
+      "descrizione": "INTERRUTTORE PRECABLATO MODULARE 2NC A LEVA c/ROTELLA,TESTA GIRATA 180°",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "SICPIEDEDX",
+      "descrizione": "KIT SICUREZZA PIEDE DESTRO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM11513",
+      "descrizione": "LAMIERA PIEDE DX",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67011",
+      "descrizione": "MANICOTTO 1/4'M L=135mm ACCIAIO INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5276",
+      "descrizione": "MENSOLA DX SUPPORTO VASSOIO TANICHE PRODOTTO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 3,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM11186",
+      "descrizione": "MENSOLA DX/SX SUPPORTO VASSOIO TANICHE PRODOTTO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 3,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD22005",
+      "descrizione": "MOLLA A COMPRESSIONE INOX EN10270-3 Dfilo=1,5 De=16,5 spire13,5 lungh.libera76mm",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD60002",
+      "descrizione": "MORSETTO a MOLLA serie SNK GRIGIO 2,5mmq 2connessioni",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD54000",
+      "descrizione": "MOTORID. STM RMI 50 PP 1/52 kW0,25 GR.71 4p IP66 v230/400/50Hz MORS1",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD54001",
+      "descrizione": "MOTORID.STM RMI50PP 1/12 kW0,25 GR.71 4p IP66 230/400/50Hz MORS1*30",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD88000",
+      "descrizione": "NIPPLO 1/2'M+1/4'F PORTASFERA Ø22 POLIPROPILENE NERO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD88001",
+      "descrizione": "NIPPLO 3/8Mcil.60°+3/8Mcon. OTTONE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD22001",
+      "descrizione": "O-RING 3043 EPDM d.10,78x2,62 70 SH",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD22002",
+      "descrizione": "O-RING D.29x1,5 NBR 70Sh",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7914",
+      "descrizione": "PALETTA DX SISTEMA DI SIC. PIEDE PASSO 2800/3000",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7915",
+      "descrizione": "PALETTA SX SISTEMA DI SIC. PIEDE PASSO 2800/3000",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "SA0401",
+      "descrizione": "PERNO CON FLANGIA SUPP. SPAZZOLA LAVARUOTE HP",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "TR0468",
+      "descrizione": "PERNO FISSAGGIO RUOTA D60 CARRELLO LAVARUOTE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "TR0223",
+      "descrizione": "PERNO PER RUOTA FOLLE GRUPPO TRAINO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM13927",
+      "descrizione": "PIASTRA DI RINFORZO D'ANGOLO INFERIORE AL PIEDE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM8534",
+      "descrizione": "PIASTRA DI RINFORZO INFERIORE AL PIEDE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5266",
+      "descrizione": "PIASTRA DI RINFORZO INFERIORE MONTANTE POSTERIORE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5302",
+      "descrizione": "PIASTRA FISSAGGIO V-RING PER RUOTA FOLLE TRAINO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7908",
+      "descrizione": "PIASTRA LAT. ESTERNA SISTEMA DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7909",
+      "descrizione": "PIASTRA LAT. INTERNA SISTEMA DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7910",
+      "descrizione": "PIASTRA LAT. LATO FOTOCELLULA SISTEMA DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5284",
+      "descrizione": "PIASTRA RINFORZO INTERNO 4mm MONTANTE INFERIORE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5303",
+      "descrizione": "PIASTRINA COLLARE CP3",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM2631",
+      "descrizione": "PIASTRINA DI FISSAGGIO PER COLLARE C4 ACC. INOX",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 5,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM12862",
+      "descrizione": "PIASTRINA FISSAGGIO REGOLATORI APERTURA CHIUSURA LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD95000",
+      "descrizione": "PIASTRINA PER FISSAGGIO COLLARE C3 ACC. INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD60000",
+      "descrizione": "PIASTRINA TERMINALE serie SNK 2,5-4-6mmq 2connessioni",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "AS1005",
+      "descrizione": "PREMONTAGGIO SUPPORTO RUOTA LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "AS1002",
+      "descrizione": "PREMONTAGGIO TELAIO SUPPORTO LAVARUOTE DX",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 120,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD60003",
+      "descrizione": "PRESSACAVO PG7 IP68 CON DADO E GUARNIZIONE O-RING IN NEOPRENE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD60004",
+      "descrizione": "PRESSACAVO PG9 CON DADO E GUARNIZIONE O-RING IN NEOPRENE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5225",
+      "descrizione": "PROFILO ORIZZONTALE SUPPORTO POMPA HP",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67002",
+      "descrizione": "RACCORDO 1/2'F + 1/2M-1/4'M PLASTICA  DI RECUPERO DA POMPETTA DOSATRICE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67012",
+      "descrizione": "RACCORDO A 'L' 1/4F+1/4F OTTONE NICHELATO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67003",
+      "descrizione": "RACCORDO a 'L' ORIENTABILE MASCHIO 12-1/4'",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67009",
+      "descrizione": "RACCORDO a 'L' ORIENTABILE MASCHIO D.6-1/8M",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67004",
+      "descrizione": "RACCORDO a 'L\" ORIENTABILE FEMMINA 1/4\"  D.6",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67005",
+      "descrizione": "REGOLATORE di FLUSSO BIDIREZIONALE a VITE CAVA REGOL.MANUALE 1/4'",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67001",
+      "descrizione": "REGOLATORE IN LINEA UNIDIREZIONALE TUBO-TUBO D.6",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD67006",
+      "descrizione": "REGOLATORE IN LINEA UNIDIREZIONALE TUBO-TUBO D.6",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM6201",
+      "descrizione": "RINFORZO INFERIORE PIEDE ZONA LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD20000",
+      "descrizione": "RIVETTO AVINOX 0BE61-00819 D.6,4 (GRIP 5,0-9,0mm max)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD20001",
+      "descrizione": "RIVETTO AVINOX BE61-0611 D.4,8x12,8 (GRIP 1,5-3,5max) CORPO E GAMBO ACC. INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD20003",
+      "descrizione": "RIVETTO AVINOX BE61-0614 D.4,8x15,4 (GRIP 3,5-6,0max) CORPO E GAMBO ACC. INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD20004",
+      "descrizione": "RIVETTO AVINOX BE61-0618 D.4,8x18,4 (GRIP 6,0-8,5max) CORPO E GAMBO ACC. INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD20006",
+      "descrizione": "RIVETTO MONOBOLT 02711-00817 D.6,4 (GRIP 2-9,5 max)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD20002",
+      "descrizione": "RIVETTO MONOBOLT 02711-00824 D.6,4 (GRIP 2-15,9 max)",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18000",
+      "descrizione": "RONDELLA D.12x36 INOX A2 UNI 6593",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5301",
+      "descrizione": "RONDELLA DENTATA DI SICUREZZA sp.1,5 PER GHIERA M30",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18010",
+      "descrizione": "RONDELLA GREMBIALINA D.10x40 INOX UNI 6593",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18001",
+      "descrizione": "RONDELLA GREMBIALINA D.6x24 sp.2mm ZN.",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18014",
+      "descrizione": "RONDELLA GREMBIALINA D.8x24 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18002",
+      "descrizione": "RONDELLA GREMBIALINA D.8x24 ZN.",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18012",
+      "descrizione": "RONDELLA GREMBIALINA D.8x32  A2 UNI 6952",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18003",
+      "descrizione": "RONDELLA GROWER INOX x M10 DIN 127 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18011",
+      "descrizione": "RONDELLA GROWER INOX x M8 DIN 127 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18009",
+      "descrizione": "RONDELLA IN NYLON 1/4'",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18004",
+      "descrizione": "RONDELLA M8 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18015",
+      "descrizione": "RONDELLA x M10 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18005",
+      "descrizione": "RONDELLA x M12 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18006",
+      "descrizione": "RONDELLA x M16 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18013",
+      "descrizione": "RONDELLA x M4 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18007",
+      "descrizione": "RONDELLA x M5 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD18008",
+      "descrizione": "RONDELLA x M6 INOX ISO 7089 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD25000",
+      "descrizione": "RUOTA D.50x23 MOZZO 8,2X29 POLIAMMIDE BIANCO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD25001",
+      "descrizione": "RUOTA D.60x34 MOZZO 15x35 POLIAMMIDE",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "TR0369",
+      "descrizione": "RUOTA FOLLE GRUPPO TRAINO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "SA0650",
+      "descrizione": "RUOTA MOTRICE + PERNO TRAINO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM11515",
+      "descrizione": "SCATOLA DI CHIUSURA LAVARUOTE ESTERNO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD22003",
+      "descrizione": "SEEGER PER ALBERO D.30 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD49000",
+      "descrizione": "SENSORE DI PROSSIMITA' INDUTTIVO CORTO C.C. M30 SCHERMATO 15mm PNP NA CAVO 10M",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM11517",
+      "descrizione": "STAFFA DI COLLEGAMENTO CILINDRO LAVARUOTE NON BASCULANTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM8765",
+      "descrizione": "STAFFA DI COLLEGAMENTO LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 3,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD49001",
+      "descrizione": "STAFFA di FISSAGGIO PLASTICA c/SFERA x SENSORI MOF",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM8524",
+      "descrizione": "STAFFA DI RINFORZO DX INTERNA MONTANTE INTERMEDIO/PIEDE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM11571",
+      "descrizione": "STAFFA DI RINFORZO DX MONTANTE INTERMEDIO/PIEDE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM6977",
+      "descrizione": "STAFFA DX PER FOTOCELLULE RUOTA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7921",
+      "descrizione": "STAFFA DX SUPPORTO INTERRUTTORE DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5063",
+      "descrizione": "STAFFA DX SUPPORTO RUOTE D60 LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7831",
+      "descrizione": "STAFFA FISSAGGIO CILINDRO LAVARUOTE STARGATE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7700",
+      "descrizione": "STAFFA FISSAGGIO SINGOLO SUPP.RIDUTT.TRAINO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM11523",
+      "descrizione": "STAFFA INTERMEDIA VITI REGISTRO LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7920",
+      "descrizione": "STAFFA POSTERIORE DX DI RISCONTRO PER MOLLA PALETTA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7919",
+      "descrizione": "STAFFA POSTERIORE SX DI RISCONTRO PER MOLLA PALETTA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5247",
+      "descrizione": "STAFFA SUPPORTO RUOTE D50 CARRELLO LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5234",
+      "descrizione": "STAFFA SUPPORTO RUOTE D50 CARRELLO LAVARUOTE LATO TRAINO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM7922",
+      "descrizione": "STAFFA SX SUPPORTO INTERRUTTORE DI SICUREZZA",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5062",
+      "descrizione": "STAFFA SX SUPPORTO RUOTE D60 LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5647",
+      "descrizione": "STAFFA VERTICALE CONTENIMENTO CAVI PIEDE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5274",
+      "descrizione": "SUPPORTO FOTOCELLULE MONTANTE INTERNO LATO DX",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 2,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5235",
+      "descrizione": "SUPPORTO RUOTE D60 LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM9765",
+      "descrizione": "SUPPORTO RUOTE D60 LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "LAM5239",
+      "descrizione": "SUPPORTO RUOTE LAVARUOTE",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "SA0422",
+      "descrizione": "SUPPORTO SALDATO RUOTA FOLLE PIEDE DX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD50000",
+      "descrizione": "TAPPO IN POLIAMMIDE FILETTATO PG11 GRIGIO RAL7035",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD50001",
+      "descrizione": "TAPPO NERO x FORO D.22,2 DP875",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD50002",
+      "descrizione": "TAPPO T.C.E.I. 1/4'M conico OTTONE NICHELATO",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD53003",
+      "descrizione": "TUBO 2SC MINETUFF 3/8' L=0,80 Mt. Fd 3/8' + F90 3/8'",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 60,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD53000",
+      "descrizione": "TUBO CRISTAL 8x12",
+      "um": "MT",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD53001",
+      "descrizione": "TUBO POLIAMMIDE PA12 MB-LONGLIFE EXTRAFLEX D.9x12 (col. AZZURRO) MATASSA 100m",
+      "um": "MT",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD87000",
+      "descrizione": "UGELLO A GETTO PIATTO HP 25° 080 - 1/4'M inox",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 80,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "TR0534",
+      "descrizione": "UGELLO A SFERA D.22 PER PRODOTTO CERCHI POM",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 2,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 80,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD85000",
+      "descrizione": "VALVOLA INIEZIONE COMPLETA EPDM x POMPA PN. 1/2'M 4x6 tar. 3bar",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 3,
+      "regola": "POQ",
+      "lotto": null,
+      "periodo_P": 3,
+      "giacenza_iniziale": 50,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": [
+        {
+          "settimana": 2,
+          "quantita": 120
+        }
+      ]
+    },
+    {
+      "codice": "LAM5229",
+      "descrizione": "VASSOIO INFERIORE CONTEN. TANICHE PRODOTTI L=1000 TELAIO APERTO",
+      "um": "NR",
+      "provenienza": "produzione",
+      "lead_time": 3,
+      "regola": "L4L",
+      "lotto": null,
+      "periodo_P": null,
+      "giacenza_iniziale": 110,
+      "scorta_sicurezza": 2,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16016",
+      "descrizione": "VITE A TESTA TONDA CON QUADRO SOTTOTESTA M10x70 (TUTTO FILETTO) INOX A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16015",
+      "descrizione": "VITE A TESTA TONDA M10x140 INOX interamente filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16000",
+      "descrizione": "VITE A TESTA TONDA M10x25 INOX ISO 8677 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16017",
+      "descrizione": "VITE A TESTA TONDA M10x55 INOX interamente filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16001",
+      "descrizione": "VITE A TESTA TONDA M12x35 INOX ISO 8677 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16002",
+      "descrizione": "VITE A TESTA TONDA M6x20 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16003",
+      "descrizione": "VITE A TESTA TONDA M6x50 INOX interamente filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16004",
+      "descrizione": "VITE A TESTA TONDA M8x25 INOX ISO 8677 A2",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16014",
+      "descrizione": "VITE AUTOFIL. T.C.C. D.3,5x25 ZN ISO 7049",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16024",
+      "descrizione": "VITE AUTOFIL. T.C.C. D.3,9x9,5 ZN ISO 7049 C 15",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16025",
+      "descrizione": "VITE AUTOFIL. T.C.C. D.4,2x16 ZN UNI 6954",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16005",
+      "descrizione": "VITE T.B.E.I. M6x20 INOX ISO 7380 HEX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16026",
+      "descrizione": "VITE T.B.E.I. M6x60 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16027",
+      "descrizione": "VITE T.B.E.I. M8x40 INOX ISO 4014",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16006",
+      "descrizione": "VITE T.C.C. M3x35 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16018",
+      "descrizione": "VITE T.C.E.I. M4x12 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16020",
+      "descrizione": "VITE T.C.E.I. M4x20 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16007",
+      "descrizione": "VITE T.C.E.I. M4x35 INOX parzialmente filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16008",
+      "descrizione": "VITE T.C.E.I. M5x16 INOX ISO 4762 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16021",
+      "descrizione": "VITE T.C.E.I. M6x16 INOX ISO 4762",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16019",
+      "descrizione": "VITE T.E. M10x20 INOX ISO 4017",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16033",
+      "descrizione": "VITE T.E. M10x25 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16009",
+      "descrizione": "VITE T.E. M10x30 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16010",
+      "descrizione": "VITE T.E. M10x45 INOX interamente filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16035",
+      "descrizione": "VITE T.E. M10x60 INOX ISO 4014 parz. filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16034",
+      "descrizione": "VITE T.E. M10x70 INOX ISO 4014 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16028",
+      "descrizione": "VITE T.E. M6x20 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16011",
+      "descrizione": "VITE T.E. M6x30 INOX ISO 4017",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16029",
+      "descrizione": "VITE T.E. M8x100 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16012",
+      "descrizione": "VITE T.E. M8x20 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16013",
+      "descrizione": "VITE T.E. M8x25 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16030",
+      "descrizione": "VITE T.E. M8x35 INOX ISO 4017 A2-70",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16031",
+      "descrizione": "VITE T.E. M8x50 INOX ISO 4014 parz. filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16032",
+      "descrizione": "VITE T.E. M8x55 INOX ISO 4014 parz. filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16022",
+      "descrizione": "VITE T.E. M8x70 INOX ISO 4014 A2-70 parz. filettata",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD16023",
+      "descrizione": "VITE TESTA A FARFALLA M5x20 INOX",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 200,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    },
+    {
+      "codice": "CD22004",
+      "descrizione": "V-RING VA70 (68-73) in NBR",
+      "um": "NR",
+      "provenienza": "acquisto",
+      "lead_time": 1,
+      "regola": "FOQ",
+      "lotto": 100,
+      "periodo_P": null,
+      "giacenza_iniziale": 100,
+      "scorta_sicurezza": 30,
+      "arrivi_programmati": []
+    }
+  ],
+  "distinte": [
+    {
+      "padre": "GRPPIEDEDX",
+      "componenti": [
+        {
+          "figlio": "SA0650",
+          "quantita": 1
+        },
+        {
+          "figlio": "AS1000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD99000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD21000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD17000",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD17001",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17002",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD17003",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17004",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD17005",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17006",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD17007",
+          "quantita": 22
+        },
+        {
+          "figlio": "CD15000",
+          "quantita": 2
+        },
+        {
+          "figlio": "GRPLAVRUOTEDX",
+          "quantita": 1
+        },
+        {
+          "figlio": "GRPRUOTAFLDX",
+          "quantita": 1
+        },
+        {
+          "figlio": "GRPRUOTATRN",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD22000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD19000",
+          "quantita": 3
+        },
+        {
+          "figlio": "CD19001",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD19002",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD19003",
+          "quantita": 4
+        },
+        {
+          "figlio": "SICPIEDEDX",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM11513",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5276",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM11186",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM13927",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM8534",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5266",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5284",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM12862",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD95000",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5225",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67009",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67001",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM6201",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD20000",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD20001",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD20002",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18001",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18002",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18003",
+          "quantita": 3
+        },
+        {
+          "figlio": "CD18004",
+          "quantita": 6
+        },
+        {
+          "figlio": "CD18015",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD18005",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18006",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD18007",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18008",
+          "quantita": 9
+        },
+        {
+          "figlio": "TR0369",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM11515",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD49000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD49001",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM8524",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM11571",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM6977",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM11523",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5274",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD50000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD50001",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD53000",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5229",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16001",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16002",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16003",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16004",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16005",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16006",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16007",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16008",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16009",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16010",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16011",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16012",
+          "quantita": 12
+        },
+        {
+          "figlio": "CD16013",
+          "quantita": 4
+        }
+      ]
+    },
+    {
+      "padre": "AS1000",
+      "componenti": [
+        {
+          "figlio": "CD67000",
+          "quantita": 1
+        },
+        {
+          "figlio": "TR0365",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD86000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD15001",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD15002",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD88000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD22001",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67002",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67003",
+          "quantita": 3
+        },
+        {
+          "figlio": "CD67004",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67005",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67006",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD18009",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD53001",
+          "quantita": 0.4
+        },
+        {
+          "figlio": "TR0534",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD85000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16014",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "GRPRUOTAFLDX",
+      "componenti": [
+        {
+          "figlio": "CD21001",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD23000",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17002",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD19003",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD22002",
+          "quantita": 2
+        },
+        {
+          "figlio": "TR0223",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5302",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5303",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD22003",
+          "quantita": 4
+        },
+        {
+          "figlio": "SA0422",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16015",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD22004",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "GRPRUOTATRN",
+      "componenti": [
+        {
+          "figlio": "LAM5998",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5999",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17000",
+          "quantita": 6
+        },
+        {
+          "figlio": "CD17007",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD54000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD18010",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD18011",
+          "quantita": 4
+        },
+        {
+          "figlio": "LAM7700",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16016",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16017",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16018",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16019",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16012",
+          "quantita": 13
+        },
+        {
+          "figlio": "CD16013",
+          "quantita": 4
+        }
+      ]
+    },
+    {
+      "padre": "SICPIEDEDX",
+      "componenti": [
+        {
+          "figlio": "CASSELSICPIEDEDX",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD39000",
+          "quantita": 10
+        },
+        {
+          "figlio": "LAM7912",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7911",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD17012",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17009",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD17010",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD17006",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17007",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD19004",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD49002",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD22005",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM7914",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7915",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7908",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7909",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7910",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD60000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD20000",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD20003",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD20004",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18010",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18012",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18013",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18007",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18008",
+          "quantita": 6
+        },
+        {
+          "figlio": "LAM7921",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7920",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7919",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7922",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5647",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16005",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16020",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16008",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16021",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16022",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16023",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "CASSELSICPIEDEDX",
+      "componenti": [
+        {
+          "figlio": "CD61000",
+          "quantita": 0.1
+        },
+        {
+          "figlio": "CD60001",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD63000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD60002",
+          "quantita": 6
+        },
+        {
+          "figlio": "CD60000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD60003",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD60004",
+          "quantita": 3
+        },
+        {
+          "figlio": "CD16024",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16025",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "GRPLAVRUOTEDX",
+      "componenti": [
+        {
+          "figlio": "LAM8215",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD99000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD81000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD21002",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD17011",
+          "quantita": 6
+        },
+        {
+          "figlio": "CD17006",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD17007",
+          "quantita": 10
+        },
+        {
+          "figlio": "CD73000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD53002",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD15003",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67007",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD67008",
+          "quantita": 1
+        },
+        {
+          "figlio": "AS1001",
+          "quantita": 1
+        },
+        {
+          "figlio": "AS1003",
+          "quantita": 1
+        },
+        {
+          "figlio": "AS1004",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67011",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD54001",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD88001",
+          "quantita": 1
+        },
+        {
+          "figlio": "SA0401",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM2631",
+          "quantita": 1
+        },
+        {
+          "figlio": "AS1002",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67012",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD67009",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5301",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD18010",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18014",
+          "quantita": 3
+        },
+        {
+          "figlio": "CD18012",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD18011",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18004",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD18008",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD49000",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM7831",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD50002",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD53003",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD87000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16004",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16026",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16027",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16018",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16028",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16029",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16012",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16013",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD16030",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16031",
+          "quantita": 1
+        }
+      ]
+    },
+    {
+      "padre": "AS1002",
+      "componenti": [
+        {
+          "figlio": "CD67010",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD20006",
+          "quantita": 8
+        },
+        {
+          "figlio": "LAM8765",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5063",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM11517",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM5062",
+          "quantita": 1
+        }
+      ]
+    },
+    {
+      "padre": "AS1001",
+      "componenti": [
+        {
+          "figlio": "CD17011",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD18004",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD25000",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5247",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16032",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "AS1003",
+      "componenti": [
+        {
+          "figlio": "CD17011",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD19003",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18004",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD25000",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5234",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD16031",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "AS1004",
+      "componenti": [
+        {
+          "figlio": "AS1005",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD61001",
+          "quantita": 0.2
+        },
+        {
+          "figlio": "CD17000",
+          "quantita": 4
+        },
+        {
+          "figlio": "CD17007",
+          "quantita": 8
+        },
+        {
+          "figlio": "CD24000",
+          "quantita": 2
+        },
+        {
+          "figlio": "TR0468",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD18015",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD25001",
+          "quantita": 4
+        },
+        {
+          "figlio": "LAM5235",
+          "quantita": 2
+        },
+        {
+          "figlio": "LAM5239",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16033",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16034",
+          "quantita": 2
+        }
+      ]
+    },
+    {
+      "padre": "AS1005",
+      "componenti": [
+        {
+          "figlio": "CD17000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD24000",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD18015",
+          "quantita": 1
+        },
+        {
+          "figlio": "CD25001",
+          "quantita": 1
+        },
+        {
+          "figlio": "LAM9765",
+          "quantita": 2
+        },
+        {
+          "figlio": "CD16035",
+          "quantita": 1
+        }
+      ]
+    }
+  ]
+}
