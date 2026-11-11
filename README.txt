@@ -67,7 +67,7 @@ python prova_tabelle.py     --> esegue l'MPR e crea risultati_mrp.xlsx
 - [x] Calcolo livelli, regole di lotto, record MRP
 - [x] Esplosione MRP completa
 - [x] Tabelle sintesi ed export Excel
-- [ ] Scenari a confronto (tutto L4L / tutto POQ)
+- [x] Scenari a confronto (tutto L4L / tutto POQ)
 - [ ] Dashboard Streamlit
 - [ ] Test automatici (pytest)
 - [ ] Relazione finale
