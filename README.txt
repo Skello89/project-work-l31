@@ -69,7 +69,7 @@ python prova_tabelle.py     --> esegue l'MPR e crea risultati_mrp.xlsx
 - [x] Tabelle sintesi ed export Excel
 - [x] Scenari a confronto (tutto L4L / tutto POQ)
 - [ ] Dashboard Streamlit
-- [ ] Test automatici (pytest)
+- [x] Test automatici (pytest)
 - [ ] Relazione finale
 
 
