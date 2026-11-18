@@ -96,6 +96,50 @@ def esporta_excel(
         tabella_indicatori.to_excel(file_excel, sheet_name="Indicatori", index=False)
 
 
+#distinta base in forma tabella, una riga per ogni legame padre -> figlio
+def tabella_distinta(modello: dict) -> pd.DataFrame:
+    anagrafica = modello["anagrafica"]
+    righe = []
+    for padre, componenti in modello["distinte"].items():
+        for componente in componenti:
+            figlio = componente["figlio"]
+            righe.append({
+                "Padre": padre,
+                "Descrizione padre": anagrafica[padre]["descrizione"],
+                "Figlio": figlio,
+                "Descrizione figlio": anagrafica[figlio]["descrizione"],
+                "Coefficiente": componente["quantita"],
+                "UM": anagrafica[figlio]["um"],
+            })
+    return pd.DataFrame(righe)
+
+
+#archivio articoli in forma tabella -> dati input di ogni articolo
+def tabella_anagrafica(anagrafica: dict[str, dict]) -> pd.DataFrame:
+    righe = []
+    for articolo in anagrafica.values():
+        testo_arrivi = ""
+        for settimana, quantita in articolo["arrivi_programmati"].items():
+            testo_arrivi = testo_arrivi + f"sett. {settimana}: {quantita}  "
+        righe.append({
+            "Codice": articolo["codice"],
+            "Descrizione": articolo["descrizione"],
+            "UM": articolo["um"],
+            "Provenienza": articolo["provenienza"],
+            "Lead time": articolo["lead_time"],
+            "Regola": articolo["regola"],
+            "Lotto": articolo["lotto"],
+            "Periodo P": articolo["periodo_P"],
+            "Giacenza iniziale": articolo["giacenza_iniziale"],
+            "Scorta sicurezza": articolo["scorta_sicurezza"],
+            "Arrivi programmati": testo_arrivi.strip(),
+        })
+    return pd.DataFrame(righe)
+
+
+
+
+
 
 
 
