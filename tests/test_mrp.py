@@ -105,6 +105,5 @@ def test_scenario_l4l_genera_piu_ordini_del_poq():
     ordini_l4l = len(esegui_mrp(modello, "L4L")["ordini"])
     ordini_poq = len(esegui_mrp(modello, "POQ")["ordini"])
     assert ordini_l4l > ordini_poq
-    
                      
 
