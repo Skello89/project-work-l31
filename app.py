@@ -138,6 +138,83 @@ with scheda_record:
     st.dataframe(tabella_record(record))
 
 
+    #grafico della disponibilità prevista con la linea della scorta di sicurezza
+    dati_grafico = pd.DataFrame({
+        "Settimana": list(range(1, orizzonte + 1)),
+        "Disponibile previsto": record["disponibile_previsto"],
+    })
+    grafico = px.line(
+        dati_grafico,
+        x="Settimana",
+        y="Disponibile previsto",
+        markers=True,
+        title=f"Disponibilità prevista di {codice}",
+    )
+    grafico.add_hline(
+        y=articolo["scorta_sicurezza"],
+        line_dash="dash",
+        line_color="red",
+        annotation_text="Scorta di sicurezza",
+    )
+    st.plotly_chart(grafico)
+
+    st.write("**Ordini pianificati per questo articolo**")
+    ordini_articolo = ordini[ordini["Codice"] == codice]
+    if len(ordini_articolo) == 0:
+        st.info("Nessun ordine nelle settimane dell'orizzonte: la giacenza è sufficiente.")
+    else:
+        st.dataframe(ordini_articolo.style.apply(evidenzia_solleciti, axis=1), hide_index=True)
+
+
+#piano ordini
+with scheda_ordini:
+    filtro1, filtro2 = st.columns(2)
+    solo_solleciti = filtro1.checkbox("Mostra solo gli ordini da sollecitare")
+    tipo = filtro2.selectbox("Provenienza", ["tutte", "produzione", "acquisto"])
+
+    ordini_filtrati = ordini
+    if solo_solleciti:
+        ordini_filtrati = ordini_filtrati[ordini_filtrati["Da sollecitare"]]
+    if tipo != "tutte":
+        ordini_filtrati = ordini_filtrati[ordini_filtrati["Provenienza"] == tipo]
+
+    st.write(f"{len(ordini_filtrati)} ordini - in rosso quelli da sollecitare")
+    st.dataframe(ordini_filtrati.style.apply(evidenzia_solleciti, axis=1), hide_index=True)
+
+
+    #esportazione del piano ordini filtrato a video in Excel e Csv
+    download1, download2 = st.columns(2)
+    download1.download_button(
+        "Scarica in CSV",
+        data=ordini_filtrati.to_csv(index=False, sep=";").encode("utf-8-sig"),
+        file_name="piano_ordini.csv",
+        mime="text/csv",
+    )
+    download2.download_button(
+        "Scarica in Excel",
+        data=in_excel(ordini_filtrati),
+        file_name="piano_ordini.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    )
+
+
+#confronto scenari
+with scheda_scenari:
+    confronto = calcola_confronto()
+    st.dataframe(confronto, hide_index=True)
+
+    grafico1, grafico2 = st.columns(2)
+    grafico1.plotly_chart(
+        px.bar(confronto, x="Scenario", y="N. Ordini", title="Numero di ordini")
+    )
+    grafico2.plotly_chart(
+        px.bar(confronto, x="Scenario", y="Scorta Media", title="Scorta Media")
+    )
+
+
+
+
+
 
 
 

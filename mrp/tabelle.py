@@ -27,6 +27,7 @@ def tabella_ordini(ordini: list[dict]) -> pd.DataFrame:
         "settimana_emissione": "Settimana Emissione",
         "settimana_arrivo": "Settimana Arrivo",
         "da_sollecitare": "Da sollecitare",
+        "provenienza": "Provenienza",
     })
     tabella = tabella.sort_values(["Settimana Emissione", "Codice"])
     tabella = tabella.reset_index(drop=True)
